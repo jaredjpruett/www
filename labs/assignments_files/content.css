@@ -1,0 +1,80 @@
+
+.*
+{
+	margin:0;
+	padding:0;
+}
+body
+{
+	margin:0;
+	padding:0;
+}
+leftcolumn ul {
+	padding-left: 1em;
+
+}
+
+.leftcolumn ul li ul {
+	padding-bottom: 0.5em;
+}
+
+.rightcolumn ul li{
+	margin-left: 0em;
+	list-style:disc;
+	margin-right: 15px;
+}
+.rightcolumn ul{
+	color:#3d0d11;
+}
+
+.nav {
+	margin-left: 0em;
+	font-size: .85em;
+	margin-top: 0em;
+	margin-bottom: 0em;
+	text-align:right;
+	margin-right:2em;
+}
+
+.nav a{
+	text-decoration:none;
+}
+.nav a:link {
+	 color: #b1b1b1;
+}
+.nav a:active {
+	 color: #b1b1b1;
+	 text-decoration: underline;
+}
+.nav a:hover {
+ 	text-decoration: underline;
+}
+.nav a:visited {
+	color: #b1b1b1;
+}
+
+
+
+
+table.rowguides {
+	border-collapse: collapse;
+	text-align: left;
+	padding-left: 1.6em;
+	margin-left: 1.6em;
+	font-size: .83em;
+	border-top: 1px solid rgb(235, 235, 235);
+	margin-bottom: 1em;
+}
+
+table.rowguides td, table.rowguides tr {
+	border-bottom: 1px solid rgb(235, 235, 235);
+}
+
+table.inline {
+	margin-left: 1.6em;
+	margin-bottom: 1em;
+}
+
+.inline th, .inline td {
+	padding-right: 1.5em;
+}

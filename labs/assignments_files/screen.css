@@ -1,0 +1,53 @@
+@media screen {
+
+/* in approximate order of appearance */
+
+.container {
+	max-width: 962px;
+	width: expression(document.body.clientWidth > 962? "962px": "auto");
+	width:962px;
+	border: 1px solid black;
+	border-bottom: 20px solid black;	
+	text-align: center;
+	margin: auto;
+	position: relative;	
+}
+
+
+.footer {
+	font-size: .83em;
+	margin-top: 0px;
+	width:962px;
+	text-align: center;
+	margin: auto;
+	position: relative;	
+}
+
+.header img {
+	width:962px;
+}
+
+.layouttable {
+	padding: 0px;
+	border: #000000;
+	border-collapse: collapse;	
+	border-style: none;
+	text-align: left;
+}
+
+.header {
+	max-height: 100px;
+	
+}
+
+.header h1 {
+	display: none;
+}
+
+
+.headerbig {
+	padding-bottom: 0px;
+	margin-bottom: 10px;
+}
+
+}

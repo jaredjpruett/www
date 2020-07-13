@@ -1,0 +1,43 @@
+
+
+@media print {
+
+/* display options */
+
+.printimage {
+	display: inline;
+	padding-right: 1em;
+}
+
+.screenimage {
+	display: none;
+}
+
+.header h1 {
+	color: black;
+}
+
+.container, .layouttable {
+	width: 6.5in;
+}
+
+/* separate columns/headers/footers */
+
+.leftcolumn {
+	border-right: 1pt dotted black;
+}
+
+.header {
+	border-bottom: 1pt solid black;
+	margin-bottom: .5em;
+	padding-bottom: .5em;
+}
+
+.footer {
+	border-top: 1pt solid black;
+	margin-top: .5em;
+	padding-top: .5em;
+	text-align:center;
+}
+
+}
